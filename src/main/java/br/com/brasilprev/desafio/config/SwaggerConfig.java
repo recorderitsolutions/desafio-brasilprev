@@ -28,8 +28,8 @@ public class SwaggerConfig {
 	
 	private ApiInfo apiInfo() {
 		return new ApiInfoBuilder()
-				.title("BrasilPrev CustomerAPI")
-				.description("This is a API about BrasilPrev product.")
+				.title("BrasilPrev Customer API Rest")
+				.description("This is a API Rest about BrasilPrev customers.")
 				.version("1.0.0")
 				.contact(getContact())
 				.build();
@@ -37,6 +37,6 @@ public class SwaggerConfig {
 	}
 
 	private Contact getContact() {
-		return new Contact("BrasilPrev", "https://www1.brasilprev.com.br", "contato@brasilprev.com.br");
+		return new Contact("Eduardo Cordeiro da Silva", "https://github.com/recorderitsolutions/desafio-brasilprev", "eduardo.cordeiro01@gmail.com");
 	}
 }
